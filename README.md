@@ -33,11 +33,11 @@ An employee or manager would benefit greatly from being able to view non-sensiti
   
 Please clone the project to your local repo, install the dependencies, start the app by running npm start. You can also use the hosted application on Heroku. 
 
- ![Landing Page](./src/util/Img/pg1.png)
- ![Functionality-1](./src/util/Img/ofl.png)
- ![Functionality-2](./src/util/Img/cshed.png)
- ![Functionality-3](./src/util/Img/nw.png)
- ![Functionality-3](./src/util/Img/ol.png)
+ ![Landing Page](./src/util/img/pg1.png)
+ ![Functionality-1](./src/util/img/ofl.png)
+ ![Functionality-2](./src/util/img/cshed.png)
+ ![Functionality-3](./src/util/img/nw.png)
+ ![Functionality-3](./src/util/img/ol.png)
   
   ## License
   
