@@ -23,7 +23,7 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0"
   },
-  "engines": { "npm": "6.x", "node": "12.x" },
+  "engines": { "npm": "6.14.4", "node": "v12.17.0" },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
