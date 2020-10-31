@@ -55,7 +55,7 @@ Please clone the project to your local repo, install the dependencies, start the
   
   Please click the below to see the feature demo on Heroku: https://offlinebudgetracker.herokuapp.com/
   
-  [![Project Demo on Heroku Feature Demo](./public/assets//Images/pg1.png)](https://reactemployedirectory.herokuapp.com/)
+  
   
   ## Authors
   
