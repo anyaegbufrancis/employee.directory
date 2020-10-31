@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .App {
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif;
+  } 
+  
+  .main {
+    width: 90%;
+    margin: 30px auto;
+  }
+  
+  
+  body {
+    background: #fefefe;
+    font-family: sans-serif;
+  }
+  
+  .jumbotron {
+    padding: 3px 0;
+}
+  .loading {
+    font-size: 80px;
+    color: rgb(207, 136, 29);
+    font-style: italic;
+    margin-bottom: 7rem;
+  }
+  
+  .load {
+    font-size: 120px;
+    margin-right: 10px;
+    animation: load infinite 3s linear;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    color: green;
+  }
+  
+  @keyframes load {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+    
+  .error {
+    font-size: 80px;
+    color: rgb(192, 19, 28);
+    font-style: italic;
+    margin-bottom: 7rem;
+  }
+  
+  .fail {
+    font-size: 120px;
+    margin-right: 10px;
+    animation: fail infinite 3s linear;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    color: red;
+    opacity: 1;
+  }
+  
+  
+  @keyframes fail {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  .none {
+    font-size: 80px;
+    color: rgb(192, 19, 28);
+    font-style: italic;
+    margin-bottom: 7rem;
+  }
+  
+  .no {
+    font-size: 120px;
+    margin-right: 10px;
+    animation: no infinite 3s linear;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: red;
+    opacity: 1;
+  }
+  
+  
+  @keyframes no {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .card {
+      width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 620px) {
+    .container {
+      width: 50%;      
+    }
+
+    .card {
+      min-width: 100%;
+    }
+    .search {
+      width: 100%;
+    }
+  }
